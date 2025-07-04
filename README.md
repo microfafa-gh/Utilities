@@ -1,23 +1,6 @@
 # Extract COG Sequences
 
-**Date:** July 2025  
-**Institution:** Okinawa Institute of Science and Technology (OIST)  
-**Author:** Fatima Li-Hau (with assistance from ChatGPT)
-##  Citation
 
-If you use this code in your research, please cite it as:
-
-Li-Hau, F. (2024). Extract COG Sequences Tool (Version 1.0) [Computer software]. Okinawa Institute of Science and Technology. https://github.com/microfafa-gh/Utilities/
-
-Please also consider citing the tools used in this workflow, such as:
-
-- Cock et al., 2009. [Biopython: freely available Python tools for computational molecular biology and bioinformatics](https://doi.org/10.1093/bioinformatics/btp163). Bioinformatics.
-- Seemann, T. 2014. [Prokka: rapid prokaryotic genome annotation](https://doi.org/10.1093/bioinformatics/btu153). Bioinformatics.
-- Huerta-Cepas et al., 2017. [eggNOG-Mapper: functional annotation of orthologs](https://doi.org/10.1093/molbev/msx148). Molecular Biology and Evolution.
-
-
-
----
 
 This script extracts nucleotide and amino acid sequences corresponding to a list of COGs (Clusters of Orthologous Groups) from annotated microbial genomes. It works with Prokka-annotated genomes, eggNOG-mapper output, and genome FASTA files, and organizes the extracted sequences into per-COG folders.
 
@@ -145,3 +128,22 @@ python Extract_COG_sequences.py dry-run
 - Python 3.6+
 - Biopython (`pip install biopython`)
 - A properly structured input directory tree as described above
+
+- **Date:** July 2025  
+**Institution:** Okinawa Institute of Science and Technology (OIST)  
+**Author:** Fatima Li-Hau (with assistance from ChatGPT)
+##  Citation
+
+If you use this code in your research, please cite it as:
+
+Li-Hau, F. (2024). Extract COG Sequences Tool (Version 1.0) [Computer software]. Okinawa Institute of Science and Technology. https://github.com/microfafa-gh/Utilities/
+
+Please also consider citing the tools used in this workflow, such as:
+
+- Cock et al., 2009. [Biopython: freely available Python tools for computational molecular biology and bioinformatics](https://doi.org/10.1093/bioinformatics/btp163). Bioinformatics.
+- Seemann, T. 2014. [Prokka: rapid prokaryotic genome annotation](https://doi.org/10.1093/bioinformatics/btu153). Bioinformatics.
+- Huerta-Cepas et al., 2017. [eggNOG-Mapper: functional annotation of orthologs](https://doi.org/10.1093/molbev/msx148). Molecular Biology and Evolution.
+
+
+
+---
