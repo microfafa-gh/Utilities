@@ -94,7 +94,7 @@ This script extracts nucleotide and amino acid sequences corresponding to a list
 ## Usage
 
 ```bash
-python Extract_sequences_ROS.py [ask|always|never|dry-run]
+python Extract_COG_sequences.py [ask|always|never|dry-run]
 ```
 
 - If no argument is passed, the default is `ask`.
@@ -105,7 +105,7 @@ python Extract_sequences_ROS.py [ask|always|never|dry-run]
 
 **Run using all genome folders (default behavior):**
 ```bash
-python Extract_sequences_ROS.py always
+python Extract_COG_sequences.py always
 ```
 
 **Run using a genome ID list file:**
@@ -117,12 +117,12 @@ python Extract_sequences_ROS.py always
 
 2. Then run the script:
    ```bash
-   python Extract_sequences_ROS.py ask
+   python Extract_COG_sequences.py ask
    ```
 
 **Perform a dry run to preview actions:**
 ```bash
-python Extract_sequences_ROS.py dry-run
+python Extract_COG_sequences.py dry-run
 ```
 
 ---
