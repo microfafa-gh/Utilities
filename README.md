@@ -136,7 +136,7 @@ python Extract_COG_sequences.py dry-run
 
 If you use this code in your research, please cite it as:
 
-Li-Hau, F. (2024). Extract COG Sequences Tool (Version 1.0) [Computer software]. Okinawa Institute of Science and Technology. https://github.com/microfafa-gh/Utilities/
+Li-Hau, F. (2025). Extract COG Sequences Tool (Version 1.0) [Computer software]. Okinawa Institute of Science and Technology. https://github.com/microfafa-gh/Utilities/
 
 Please also consider citing the tools used in this workflow, such as:
 
