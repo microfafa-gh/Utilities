@@ -143,7 +143,7 @@ for i, genome_id in enumerate(genome_ids, 1):
 
         out_nt_dir = output_root_nt / f"{cog}_{gene_name}"
         out_nt_dir.mkdir(parents=True, exist_ok=True)
-        out_nt_file = out_nt_dir / f"{genome_id}_{cog}.fna"
+        out_nt_file = out_nt_dir / f"{genome_id}_{cog}_{locus_tag}.fna"
 
         if out_nt_file.exists():
             if overwrite_policy == "never":
@@ -168,7 +168,7 @@ for i, genome_id in enumerate(genome_ids, 1):
 
         out_aa_dir = output_root_aa / f"{cog}_{gene_name}"
         out_aa_dir.mkdir(parents=True, exist_ok=True)
-        out_aa_file = out_aa_dir / f"{genome_id}_{cog}.faa"
+        out_aa_file = out_aa_dir / f"{genome_id}_{cog}_{locus_tag}.faa"
 
         if matched_aa:
             if out_aa_file.exists():
