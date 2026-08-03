@@ -2,7 +2,7 @@
 
 
 
-This script extracts nucleotide and amino acid sequences corresponding to a list of COGs (Clusters of Orthologous Groups) from annotated microbial genomes. It works with Prokka-annotated genomes, eggNOG-mapper output, and genome FASTA files, and organizes the extracted sequences into per-COG folders.
+This script extracts nucleotide and amino acid sequences corresponding to a list of COGs (Clusters of Orthologous Groups) from annotated microbial genomes. It works with Prokka-annotated genomes, eggNOG-mapper output, and genome FASTA files, and organizes the extracted sequences into per-COG folders. Written with Codex.
 
 ---
 
